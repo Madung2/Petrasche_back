@@ -1,6 +1,6 @@
 #📌 Petrasche
 - 반려인을 위한 애견 커뮤니티
-사이트 링크: [https://www.petrasche.com](https://www.petrasche.com)
+- 사이트 링크: [https://www.petrasche.com](https://www.petrasche.com)
 
 ##
 📌 Introduction
