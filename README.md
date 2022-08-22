@@ -1,10 +1,8 @@
-📌 Petrasche
--
-- 반려인을 위한 애견 커뮤니티 사이트
-- 강아지 자랑 및 히스토리 남기는 사이트
-- 애견 월드컵
-- 동네 반려인들과의 산책모임 매칭
+#📌 Petrasche
+- 반려인을 위한 애견 커뮤니티
+사이트 링크: [https://www.petrasche.com](https://www.petrasche.com)
 
+##
 📌 Introduction
 - 프로젝트면: 펫트라슈
 - 사이트: petrasche.com
