@@ -4,7 +4,25 @@
 
 ## 1. 제작 기간 & 참여 인원
 - 2022.07.07(목) ~ 2022.08.04(목)
-- 5명 팀 프로젝트
+- 팀 프로젝트(5명)
+
+## 2. 사용 기술
+<div style='flex'>
+<img align='right' src="https://img.shields.io/badge/Python3.-3776AB?style=for-the-badge&logo=Python&logoColor=white" >
+  <img align='right'  src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=Django&logoColor=white">
+  <img  style='float:left' src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white">
+</div>
+
+
+<div style="display:flex">
+    <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white">
+    <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white">
+	<img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=for-the-badge&logo=Amazon EC2&logoColor=white">
+	<img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white">
+
+</div>
 
 📌 Introduction
 - 프로젝트면: 펫트라슈
