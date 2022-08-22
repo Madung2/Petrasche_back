@@ -68,13 +68,31 @@
 
 ## 5. 핵심 트러블 슈팅
 
+-도커 배포 
+배포 전 과정이 아직 익숙하지 않은 상태에서 도커를 처음 배우고 배포하는게 쉽지 않았습니다.
 
 ## 6. 기타 트러블 슈팅
 
--도커 배포
 <details close>
-  <summary>📌 배포 어려움</summary>
-  - Docker/EC2사용<br>
+  <summary>📌 jwt 토큰 사용</summary>
+  처음 해봄..  
+</details>
+<details close>
+  <summary>📌 회원가입시 유저 모델과 유저프로필 모델을 함께 저장하는 방법</summary>
+  처음 해봄..  
+</details>
+<details close>
+  <summary>📌 팔로우 기능 </summary>
+  처음 해봄..  
+</details>
+<details close>
+  <summary>📌 related name </summary>
+  처음 해봄..  
+</details>
+<details close>
+  <summary>📌drf pagination이 settings.py에서 전역설정으로 되지 않는 문제 </summary>
+  자동 drf 페이지네이션 기능 일반적인 apiview가 아닌 viewsets이나 generic views 사용 할 때만 가능하다.
+  pagination.py파일을 만든뒤 mixin을 사용해서 페이지네이션 api 자체를 불러왔다.
 </details>
 
 
