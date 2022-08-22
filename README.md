@@ -35,12 +35,11 @@
 </details>
 <details close>
   <summary>📌 메인페이지</summary>
-  - 강아지 히스토리 CRUD
-  - 댓글기능
-  - 좋아요 기능
-  - 팔로우 기능
+  - 강아지 히스토리 CRUD<br>
+  - 댓글기능<br>
+  - 좋아요 기능<br>
+  - 팔로우 기능<br>
   - 엘라스틱서치 엔진을 사용한 초성, 해시태그 검색 기능
-
 </details>
 
 
