@@ -23,7 +23,8 @@
 	<img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=for-the-badge&logo=Amazon RDS&logoColor=white">
 
 </div>
-
+## 3. 아키텍쳐 및 ERD 설계
+![img_1.png](/static/img_1.png)
 📌 Introduction
 - 프로젝트면: 펫트라슈
 - 사이트: petrasche.com
@@ -35,7 +36,7 @@
 - 한예슬: 회원가입, 로그인(카카오API), 산책커뮤니티(카카오지도API), 팔로우
 - Petrasche_front: https://github.com/Super-fast-decision-making/Petrasche_front
 - Petrasche_classification: https://github.com/Super-fast-decision-making/Petrasche_classification
-![img_1.png](/static/img_1.png)
+
 
 📌 로그인/회원가입
 - 유효성 검사, 아이디 중복 검사, JWT Token사용, 카카오 소셜 로그인
