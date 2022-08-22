@@ -29,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/104334219/185877181-2682c4d3-743c-46bf-9827-3c6a5ee1eb8f.png)
 
 ## 4. 핵심 기능
-<details open>
+<details close>
   <summary>📌 로그인/회원가입</summary>
   * 유효성 검사, 아이디 중복 검사, JWT Token사용, 카카오 소셜 로그인
 </details>
