@@ -86,7 +86,7 @@
   처음 해봄..  
 </details>
 <details close>
-  <summary>📌 related name </summary>
+  <summary>📌 시리얼라이저 사용시 related name </summary>
   처음 해봄..  
 </details>
 <details close>
