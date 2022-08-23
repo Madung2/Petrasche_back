@@ -87,8 +87,9 @@
   pagination.py파일을 만든뒤 mixin을 사용해서 페이지네이션 api 자체를 불러왔다.
 </details>
 <details close>
-  <summary>📌</summary>
-  메소드를 마치 필드인 것처럼 취급할 수 있게 해주는 property decorator를 사용해서 생각보다 간단하게 해결할 수 있었다. 
+  <summary>📌마감 기능 백엔드로 처리시 어려움</summary>
+  프로젝트 초기에 친구매칭 프로그램의 마감기능을 프론트에서 자바스크립트로 처리했었는데, 이를 리팩토링하는 과정에서 백엔드로 옮겨왔습니다.
+  메소드를 마치 필드인 것처럼 취급할 수 있게 해주는 property decorator를 사용해서 생각보다 간단하게 해결할 수 있었습니다. 
 <img src='https://user-images.githubusercontent.com/104334219/186092270-471d1c5e-5ee4-460d-bf7a-49af8a72242e.png'>
 </details>
 <details close>
