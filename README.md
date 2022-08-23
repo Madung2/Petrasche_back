@@ -75,7 +75,10 @@
 #### 실제 서비스 과정중 해킹 시도
 
 * 서비스를 운영해 보면서 구글시트로 피드백을 받았고 [총 38개의 응답을 받을 수 있었습니다.](https://docs.google.com/forms/d/15miCoUt5ddVy4H0caMUbLnNujvHnd3yJsD1HJBhC0co/edit?usp=sharing)
-* 
+* 피드백을 받는 기간동안 게시물 데이터중 절반이 삭제되고, html태그가 그대로 업로드 되기도 했습니다.
+* 정규표현식을 사용해 게시물 업로드시 html 태그가 지워지도록 했습니다.
+* views.py에 있는 게시물 업로드 함수등에서 permission_classes를 적용해두지 않은것을 발견하고 오류없이 깔끔하게 적용되도록 할 수 있었습니다. 
+* 그 외에도 피드백 내용을 자세히 읽고 상당부분을 적용해 유저 친화성을 높였습니다.
 
 ## 6. 기타 트러블 슈팅
 <details close>
