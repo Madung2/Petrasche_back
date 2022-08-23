@@ -104,8 +104,10 @@
 <details close>
   <summary>📌drf pagination이 settings.py에서 전역설정으로 되지 않는 문제 </summary>
 	<br>
-  자동 drf 페이지네이션 기능 일반적인 apiview가 아닌 viewsets이나 generic views 사용 할 때만 가능하다.
-  pagination.py파일을 만든뒤 mixin을 사용해서 페이지네이션 api 자체를 불러왔다.
+  자동 drf 페이지네이션 기능 일반적인 apiview가 아닌 viewsets이나 generic views 사용 할 때만 가능합니다.<br>
+  pagination.py파일을 만든뒤 mixin을 사용해서 페이지네이션 api 자체를 불러왔습니다.<br>
+	<img src='https://user-images.githubusercontent.com/104334219/186115201-e6669f4f-8aec-44f6-8dd2-caf038b320ed.png'>
+
 </details>
 <details close>
   <summary>📌마감 기능 백엔드로 처리시 어려움</summary>
