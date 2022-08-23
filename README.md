@@ -87,7 +87,7 @@
   pagination.py파일을 만든뒤 mixin을 사용해서 페이지네이션 api 자체를 불러왔다.
 </details>
 <details close>
-  <summary>📌 </summary>
+  <summary>📌</summary>
   메소드를 마치 필드인 것처럼 취급할 수 있게 해주는 property decorator를 사용해서 생각보다 간단하게 해결할 수 있었다. 
 <img src='https://user-images.githubusercontent.com/104334219/186092270-471d1c5e-5ee4-460d-bf7a-49af8a72242e.png'>
 
