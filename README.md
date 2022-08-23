@@ -97,7 +97,7 @@
 
 ## 6. 기타 트러블 슈팅
 <details close>
-  <summary>📌EC2배포 초반 sqlite에서 postgreSQL로 바꾸면서 속도가 오히려 줄어든 문제 </summary>
+  <summary>📌EC2배포 초반 속도가 오히려 느려진 문제 </summary>
 	<br>
   EC2 배포를 처음 시작하면서 로컬에서 했을 때에 비해 속도가 확연하게 줄어든걸 느낄 수 있었습니다.<br>
   개발자도구->Network->fetch 탭에서 확인해봐도 눈에 띄는 속도차이가 드러났습니다.<br>
