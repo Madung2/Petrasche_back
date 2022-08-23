@@ -72,37 +72,23 @@
 배포 전 과정이 아직 익숙하지 않은 상태에서 도커를 처음 배우고 배포하는게 쉽지 않았습니다.
 
 ## 6. 기타 트러블 슈팅
-
 <details close>
-  <summary>📌 jwt 토큰 사용</summary>
-  처음 해봄..  
-</details>
-<details close>
-  <summary>📌 회원가입시 유저 모델과 유저프로필 모델을 함께 저장하는 방법</summary>
-  처음 해봄..  
-</details>
-<details close>
-  <summary>📌 팔로우 기능 </summary>
-  처음 해봄..  
-</details>
-<details close>
-  <summary>📌 시리얼라이저 사용시 related name </summary>
-  처음 해봄..  
+  <summary>📌EC2배포 초반 sqlite에서 postgreSQL로 바꾸면서 속도가 오히려 줄어든 문제 </summary>
+  EC2 배포를 처음 시작하면서 로컬에서 했을 때에 비해 속도가 확연하게 줄어든걸 느낄 수 있었다.
+  개발자도구->Network->fetch 탭에서 확인해봐도 눈에 띄는 속도차이가 드러났다.
+  이건 내 지식으로 해결하기 어려운 부분이다 싶어서 튜터님들과 잘 아시만한 분들을 찾아갔고,
+  EC2 배포할때 지역이 한국이 아닌 캘리포니아로 설정되어 있었단걸 발견했다.
+  그 외에도 당시 EC2서버는 내가 배포하고 postgreSQL을 배포한 RDS서버는 다른 팀원이 배포했는데 이게 문제가 될 수 있다는 얘기를 들어,
+  RDS도 내가 배포하게 되었다. 
 </details>
 <details close>
   <summary>📌drf pagination이 settings.py에서 전역설정으로 되지 않는 문제 </summary>
   자동 drf 페이지네이션 기능 일반적인 apiview가 아닌 viewsets이나 generic views 사용 할 때만 가능하다.
   pagination.py파일을 만든뒤 mixin을 사용해서 페이지네이션 api 자체를 불러왔다.
 </details>
-
 <details close>
-  <summary>📌EC2배포 초반 sqlite에서 postgreSQL로 바꾸면서 속도가 오히려 줄어든 문제 </summary>
-  EC2 배포를 처음 시작하면서 로컬에서 했을 때에 비해 속도가 확연하게 줄어든걸 느낄 수 있었다.
-  개발자도구->Network->fetch 탭에서 확인해봐도 눈에 띄는 속도차이가 드러났다.
-  이건 내 지식으로 해결할 수 없는 부분이다 싶어서 튜터님들과 잘 아시만한 분들을 찾아갔고,
-  EC2 배포할때 지역이 캘리포니아로 설정되어 있었단걸 발견했다.
-  그 외에도 당시 EC2서버는 내가 배포하고 postgreSQL을 배포한 RDS서버는 다른 팀원이 배포했는데 이게 문제가 될 수 있다는 얘기를 들어,
-  RDS도 내가 배포하게 되었다. 
+  <summary>📌 jwt 토큰 사용</summary>
+  처음 해봄..  
 </details>
 
 
