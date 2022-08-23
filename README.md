@@ -80,6 +80,14 @@
 * views.py에 있는 게시물 업로드 함수등에서 permission_classes를 적용해두지 않은것을 발견하고 오류없이 깔끔하게 적용되도록 할 수 있었습니다. 
 * 그 외에도 피드백 내용을 자세히 읽고 상당부분을 적용해 유저 친화성을 높였습니다.
 
+#### 쿼리 최적화 문제와 리팩토링
+* 피드백을받는 과정에서 쿼리를 많이 날린다는 말을 듣고 쿼리 최적화에 신경을 많이 썼습니다.
+*  기존 코드 :
+![code44](https://user-images.githubusercontent.com/104334219/186108766-539d5114-9c39-4746-9b26-b22833330c54.png)
+*  리팩토링된 코드 :
+![code55](https://user-images.githubusercontent.com/104334219/186109137-99a328cd-cbc5-4e4f-888a-244600b4e1bd.png)
+
+
 ## 6. 기타 트러블 슈팅
 <details close>
   <summary>📌EC2배포 초반 sqlite에서 postgreSQL로 바꾸면서 속도가 오히려 줄어든 문제 </summary>
