@@ -89,6 +89,8 @@
 ![code55](https://user-images.githubusercontent.com/104334219/186109137-99a328cd-cbc5-4e4f-888a-244600b4e1bd.png)
 *  쿼리디버거를 사용해 쿼리의 갯수와 시간을 체크해보는 과정도 거쳤습니다.
 ![code3333](https://user-images.githubusercontent.com/104334219/186109296-fda11b91-0b4d-497c-9388-494888f008c9.png)
+![image](https://user-images.githubusercontent.com/104334219/186157032-908983d1-16a8-48db-a3f9-c96bb1efb87e.png)
+
 
 ## 6. 기타 트러블 슈팅
 <details close>
