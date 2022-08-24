@@ -46,7 +46,7 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
   <summary>📌 마이페이지</summary>
   - 유저/ 펫 프로필 CRUD<br>
   - 자신의 반려동물 프로필 이미지 등록시 AI로 강아지vs고양이 구분 (fastAPI사용, ec2 분리)<br>
-  - DRF페이지네이션<br>
+  - DRF페이지네이터 모듈을 사용한 페이지네이션 기능<br>
 </details>
 <details close>
   <summary>📌 산책 매칭 페이지</summary>
