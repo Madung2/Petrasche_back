@@ -31,7 +31,7 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 ## 4. 핵심 기능
 <details close>
   <summary>📌 로그인/회원가입</summary>
-  유효성 검사, 아이디 중복 검사, JWT Token사용, 카카오 소셜 로그인
+  유효성 검사, 아이디 중복 검사, 리프레시 토큰 사용, JWT Token사용, Oauth 사용한 카카오 소셜 로그인
 </details>
 <details close>
   <summary>📌 메인페이지</summary>
