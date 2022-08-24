@@ -73,7 +73,7 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 * 주말을 도커 공부하는 시간으로 배정하고, 따로 [해외 유튜브 튜토리얼 영상](https://www.youtube.com/watch?v=W5Ov0H7E_o4&list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C&index=1)을 찾아보면서 도커파일과, 도커컴포즈 파일의 한 문장 한 문장이 무슨 뜻인지 해석하고 [기초부터 잡는 시간](https://velog.io/@tasha_han_1234/%EB%B0%B0%ED%8F%AC1-Dockerfile)을 가졌습니다.
 * git hub workflow를 사용해 CI를 진행했고, EC2 인스턴스에 연결된 ubuntu에서 도커컴포즈 파일을 실행했습니다.
 
-#### 2) 서비스 운영간 데이터 삭제 대응
+#### 2) 유저 피드백 수령 및 사용성 개선
 
 * 서비스를 운영해 보면서 구글시트로 피드백을 받았고 [총 38개의 응답을 받을 수 있었습니다.](https://docs.google.com/forms/d/15miCoUt5ddVy4H0caMUbLnNujvHnd3yJsD1HJBhC0co/edit?usp=sharing)
 * 피드백을 받는 기간동안 게시물 데이터중 절반이 삭제되고, html태그가 그대로 업로드 되기도 했습니다.
