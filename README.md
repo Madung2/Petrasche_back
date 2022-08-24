@@ -27,7 +27,7 @@
 ## 3. 아키텍쳐 및 ERD 설계
 ![img_1.png](/static/img_1.png)
 ![image](https://user-images.githubusercontent.com/104334219/185877181-2682c4d3-743c-46bf-9827-3c6a5ee1eb8f.png)
-
+https://documenter.getpostman.com/view/20843570/VUqrPHb3
 ## 4. 핵심 기능
 <details close>
   <summary>📌 로그인/회원가입</summary>
