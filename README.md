@@ -86,7 +86,7 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 *  기존 코드 :
 ![code44](https://user-images.githubusercontent.com/104334219/186108766-539d5114-9c39-4746-9b26-b22833330c54.png)
 *  리팩토링된 코드 :
-![code55](https://user-images.githubusercontent.com/104334219/186109137-99a328cd-cbc5-4e4f-888a-244600b4e1bd.png)
+![리팩](https://user-images.githubusercontent.com/104334219/186899224-b3788b1d-23ac-4870-ab51-57f320eb873c.png)
 *  쿼리디버거를 사용해 쿼리의 갯수와 시간을 체크해보는 과정도 거쳤습니다.
 ![code3333](https://user-images.githubusercontent.com/104334219/186109296-fda11b91-0b4d-497c-9388-494888f008c9.png)
 *  prefetch_related와 select_related를 사용했습니다.
