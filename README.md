@@ -89,7 +89,6 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 ![code55](https://user-images.githubusercontent.com/104334219/186109137-99a328cd-cbc5-4e4f-888a-244600b4e1bd.png)
 *  쿼리디버거를 사용해 쿼리의 갯수와 시간을 체크해보는 과정도 거쳤습니다.
 ![code3333](https://user-images.githubusercontent.com/104334219/186109296-fda11b91-0b4d-497c-9388-494888f008c9.png)
-![image](https://user-images.githubusercontent.com/104334219/186157032-908983d1-16a8-48db-a3f9-c96bb1efb87e.png)
 *  prefetch_related와 select_related를 사용했습니다.
 ![code733](https://user-images.githubusercontent.com/104334219/186174334-38acafd1-e990-4f63-8380-97698a4f4434.png)
 
