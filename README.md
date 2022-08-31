@@ -69,7 +69,7 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 ## 5. 핵심 트러블 슈팅
 
 #### 1) 도커 배포
-* 배포 전 과정이 아직 익숙하지 않은 상태에서 도커를 처음 배우고 배포하는게 쉽지 않았습니다.
+* 제가 배포를 담당하게 되었는데 전 과정이 아직 익숙하지 않은 상태에서 도커를 처음 배우고 배포하는게 쉽지 않았습니다.
 * 주말을 도커 공부하는 시간으로 배정하고, 따로 [해외 유튜브 튜토리얼 영상](https://www.youtube.com/watch?v=W5Ov0H7E_o4&list=PLOLrQ9Pn6cazCfL7v4CdaykNoWMQymM_C&index=1)을 찾아보면서 dockerfile과, docker-compose 파일의 한 문장 한 문장이 무슨 뜻인지 해석하고 [기초부터 잡는 시간](https://velog.io/@tasha_han_1234/%EB%B0%B0%ED%8F%AC1-Dockerfile)을 가졌습니다.
 * git hub workflow를 사용해 CI를 진행했고, EC2 인스턴스에 연결된 ubuntu에서 docker-compose 파일을 실행했습니다.
 
@@ -82,7 +82,8 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 * 그 외에도 피드백 내용을 자세히 읽고 상당부분을 적용해 유저 친화성을 높였습니다.
 
 #### 3) 쿼리 최적화 문제와 리팩토링
-* 피드백을 받는 과정에서 쿼리를 많이 날린다는 말을 들었고 쿼리 최적화에 신경을 많이 썼습니다.
+* 피드백을 받는 과정에서 쿼리를 많이 날린다는 말을 들었고 쿼리 최적화에 신경을 많이 썼습니다. 
+저는 쿼리디버거와 CaptureQueriesContext 그리고 prefetch_related와 select_related를 사용했습니다.
 *  기존 코드 :
 ![code44](https://user-images.githubusercontent.com/104334219/186108766-539d5114-9c39-4746-9b26-b22833330c54.png)
 *  리팩토링된 코드 :
@@ -100,8 +101,7 @@ https://documenter.getpostman.com/view/20843570/VUqrPHb3
 	<br>
   EC2 배포를 처음 시작하면서 로컬에서 했을 때에 비해 속도가 확연하게 줄어든걸 느낄 수 있었습니다.<br>
   개발자도구->Network->fetch 탭에서 확인해봐도 눈에 띄는 속도차이가 드러났습니다.<br>
-  이건 내 지식으로 해결하기 어려운 부분이다 싶어서 튜터님들과 잘 아만한 분들을 찾아갔고,<br>
-  EC2 배포할때 지역이 한국이 아닌 캘리포니아로 설정되어 있었단걸 발견습니다.<br>
+  확인 결과 EC2 배포할때 지역이 한국이 아닌 캘리포니아로 설정되어 있었단걸 발견습니다.<br>
   그 외에도 당시 EC2서버는 내가 배포하고 postgreSQL을 배포한 RDS서버는 다른 팀원이 배포했는데 이게 문제가 될 수 있다는 얘기를 들어,
   RDS도 내가 배포하게 되었습니다. 
 </details>
